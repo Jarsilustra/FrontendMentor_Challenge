@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./fonts/static/figtree-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./fonts/static/figtree-ExtraBold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./fonts/static/figtree-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebdd23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h2 {
+  background-color: #ebdd23;
+  display: inline-block;
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding: 5px 8px 5px 8px;
+}
+
+h3 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 700;
+  margin: auto;
+}
+
+p {
+  font-family: "Figtree", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  font-style: italic;
+  color: #000;
+  margin: 10px 0 10px 0;
+}
+
+.texto {
+  font-family: "Figtree", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #6e6e6e;
+}
+
+.usuario {
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.contenedor {
+  background-color: #fff;
+  border: #000 solid 1px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 0 0 #000;
+  width: 320px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.area-usuario {
+  display: flex;
+  align-items: center; /* Centra verticalmente imagen y texto */
+  gap: 8px; /* Espacio entre imagen y nombre */
+  margin-top: 15px;
+}
+
+.area-usuario img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.area-usuario .usuario {
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  line-height: 1;
+}
+
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #1d579c;
+}
