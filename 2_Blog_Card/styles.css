@@ -34,18 +34,20 @@ body {
   min-height: 100vh;
 }
 
-h2 {
+span {
   background-color: #ebdd23;
   display: inline-block;
   font-family: "Figtree", sans-serif;
   font-size: 10px;
   font-weight: 700;
+  font-style: normal;
   margin-bottom: 5px;
   padding: 5px 8px 5px 8px;
 }
 
-h3 {
+h1 {
   font-family: "Figtree", sans-serif;
+  font-size: 23px;
   font-weight: 700;
   margin: auto;
 }
