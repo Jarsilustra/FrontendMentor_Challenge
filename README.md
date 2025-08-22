@@ -1,6 +1,8 @@
 ---
 
-1. **As a solution just use basic CSS with attributes set in the HTML**
+1. **QR Challenge**
+
+https://qrchallenge-gamma.vercel.app/
 
 ![Vista previa del proyecto](Imagenes_Challenge/FM_01.png)
 
